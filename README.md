@@ -28,14 +28,14 @@ This is a wordpress plugin for Calculatin BMI online.
 
   3. Based on calculation it will show in which of the following category 
     user BMI exists & gives suggestions according to that.
-    1. <strong>Under weight</strong>
-      1. Being underweight could be a sign of not eating enough or that you maybe ill. Contact your doctor for further evaluation.
-    2. <strong>Normal weight</strong>
-      1. Your weight is in the normal range. Medical experts recommend that you keep your weight within this range.
-    3. <strong>Pre-obesity or Overweight</strong>
-      1. The term ‘pre-obesity’ was previously classified as ‘overweight’ by the World Health Organization (WHO).People who fall into this category may be at risk of developing obesity, other health problems, or their current health problems may worsen. Consult a healthcare professional to discuss ways to improve your health and quality of life.
-    4. <strong>Obesity</strong>
-      1. People who have BMI equal or over 27.5 are classified as having obesity, which is defined as an abnormal or excessive accumulation of fat that may harm health. It is recommended that you consult a healthcare professional trained in obesity management for diagnosis, risk assessment and treatment of obesity and weight-related health complications. The goal of managing and treating obesity is not simply to lose weight and keep it off, but instead to improve health and lower the risks of other health complications. Losing even a modest amount of weight, such as five percent of body weight or more, and maintaining this weight loss, can improve overall wellbeing, while also reducing the risk of weight-related complications. Read more about the management of obesity and treatment options.
+      1. <strong>Under weight</strong>
+        1. Being underweight could be a sign of not eating enough or that you maybe ill. Contact your doctor for further evaluation.
+      2. <strong>Normal weight</strong>
+        1. Your weight is in the normal range. Medical experts recommend that you keep your weight within this range.
+      3. <strong>Pre-obesity or Overweight</strong>
+        1. The term ‘pre-obesity’ was previously classified as ‘overweight’ by the World Health Organization (WHO).People who fall into this category may be at risk of developing obesity, other health problems, or their current health problems may worsen. Consult a healthcare professional to discuss ways to improve your health and quality of life.
+      4. <strong>Obesity</strong>
+        1. People who have BMI equal or over 27.5 are classified as having obesity, which is defined as an abnormal or excessive accumulation of fat that may harm health. It is recommended that you consult a healthcare professional trained in obesity management for diagnosis, risk assessment and treatment of obesity and weight-related health complications. The goal of managing and treating obesity is not simply to lose weight and keep it off, but instead to improve health and lower the risks of other health complications. Losing even a modest amount of weight, such as five percent of body weight or more, and maintaining this weight loss, can improve overall wellbeing, while also reducing the risk of weight-related complications. Read more about the management of obesity and treatment options.
   
   4. Added BMI bar to reflect bmi category.
 
