@@ -1,0 +1,323 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ 
+.bg-white{
+    background: #fff;
+}
+.d-flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.m-auto{
+    margin: 0 auto;
+}
+
+.bmi-wrapper {
+    font-size: 1rem;
+    padding: 40px 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.bmi-head-title{
+    color: #000000b5;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.pillbox-metric{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.pillbox-imperial{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.bmi-pillbox-item.active {
+    background-color: #afa79f;
+    color: #fff;
+}
+
+.bmi-pillbox-item {
+    position: relative;
+    background: #eff0f2;
+    color: #838384;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    padding: 15px 50px;
+}
+
+/* Height Range Slider */
+  
+.height-slider, 
+.weight-slider,
+.ft-in-slider,
+.st-lb-slider{
+   -webkit-appearance: none;
+   background: #666667;
+   width: 100%;
+   height: 1px;
+}
+  
+  
+.height-slider::-webkit-slider-thumb,
+.weight-slider::-webkit-slider-thumb,
+.ft-in-slider::-webkit-slider-thumb,
+.st-lb-slider::-webkit-slider-thumb{ 
+    -webkit-appearance: none; 
+    cursor: pointer; 
+    background: #e97869  ; 
+    width: 18px; 
+    border: 3px solid #fff;
+    -webkit-box-shadow: 1px 1px 1px 1px #d8d5d5;
+            box-shadow: 1px 1px 1px 1px #d8d5d5;
+    border-radius: 25px;
+    height: 18px; 
+} 
+  
+  
+.height-slider:hover,
+.weight-slider:hover,
+.ft-in-slider:hover,
+.st-lb-slider:hover
+{ 
+    opacity: 1; 
+} 
+
+#bmiHeightVal,
+#bmiWeightVal,
+#bmiFtVal,
+#bmiInVal,
+#bmiStVal,
+#bmiLbVal {
+    padding: 0.385em 0.635rem;
+    background-color: #fff;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #000000b5;
+    border: 1px solid #666667;
+    border-right: none;
+    border-radius: .550rem 0 0 .550rem;
+    max-height: 2.25rem;
+    margin: 0;
+    min-width: 4.0625rem;
+}
+
+#bmiInVal,
+#bmiLbVal {
+    margin-left: 10px;
+}
+
+.bmi-height-value,
+.bmi-weight-value
+ {
+    margin-top: 30px;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+}
+
+.height-span,
+.weight-span,
+.ft-span,
+.in-span,
+.st-span,
+.lb-span
+ {
+    border: 1px solid #666667;
+    border-left: none;
+    border-radius: 0 .550em .550em 0;
+    padding: .372rem .25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #000000b5;
+    background-color: #e9ecef;
+    max-height: 2.25rem;
+}
+
+
+
+/*BMI Result CSS*/
+
+.bmi-result-title,
+.bmi-result-c-title {
+    color: #242429;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+
+.bmi-result-heading,
+.bmi-result-c-heading {
+    margin-top: 30px;
+}
+
+.bmi-result-value,
+.bmi-result-c-value {
+    margin-left: 10px;
+    color: #666667;
+}
+
+/*BMI Slider*/
+
+.bmi-progress-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 2.25rem;
+    margin: 25px 4px;
+    position: relative;
+}
+
+.bmi-progress-bar .pointer {
+    height: 3.5rem;
+    position: absolute;
+    top: calc(-1.75rem - -18px);
+    border-left: 4px solid #000000b5;
+    border-radius: .125rem;
+}
+
+.bmi-progress-bar .vl {
+    border-radius: 0;
+    height: 100%;
+}
+
+.bmi-progress-bar .vl.group-0 {
+    background: #306eaa;
+    min-width: 34.5%;
+}
+
+.bmi-progress-bar .vl.group-1 {
+   background: #47aa30;
+   min-width: 17.6%;
+}
+
+.bmi-progress-bar .vl.group-2 {
+    background: #eda700;
+    min-width: 18.5%;
+}
+
+.bmi-progress-bar .vl.group-3 {
+    background: #c84200;
+    width: 31%;
+}
+
+/*.bmi-progress-bar .vl.group-4 {
+    background: #92370a;
+    width: 24.5%;
+}*/
+
+#bmiFtInSlider, #bmiStLbSlider {
+    margin: 0 auto;
+    height: 1px;
+    border: 0;
+    background: #666667;
+    margin-top: 10px;
+}
+.bmi-pillbox-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+#bmiFtInSlider .ui-slider-handle, #bmiStLbSlider .ui-slider-handle {
+    top: -8px;
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: #e97869;
+    width: 18px;
+    border: 3px solid #fff;
+    -webkit-box-shadow: 1px 1px 1px 1px #d8d5d5;
+            box-shadow: 1px 1px 1px 1px #d8d5d5;
+    border-radius: 25px;
+    height: 18px;
+}
+
+.bmi-result-heading, .bmi-result-c-heading, .bmi-result-comment {
+    margin: 30px auto 0;
+    /* font-size: 14px; */
+}
+.bmi-height-slider-con {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.bmi-height-slider,.bmi-weight-slider {
+    min-width: 70%;
+}
+
+#bmiHeightVal,#bmiWeightVal {
+    min-width: auto;
+    width: 100%;
+}
+.bmi-metric, .bmi-imperial {
+    margin-top: 40px;
+}
+
+.bmi-height-value .height-span, .bmi-weight-value .weight-span {
+    min-width: auto;
+    text-align: center;
+}
+
+.height-slider, .weight-slider {
+    width: calc(100% - 30px );
+}
+
+.bmi-result-comment {
+    font-size: 14px;
+    margin: 0;
+    max-height: 200px;
+    overflow: auto;
+    color: #6d6d6d;
+}
+.et_pb_toggle_title {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+#ref-content li {
+    line-height: 1.75em;
+}
+
+#ref-content .et_pb_toggle_content ul {
+    list-style: lower-roman;
+}
+
+#ref-content .et_pb_toggle_content ul li::marker {
+    font-size: 13px;
+}
+
+#ref-content .et_pb_toggle_content ul li > span {
+    position: relative;
+    top: 3px;
+}
+#ref-content .et_pb_toggle_title:before{
+    content: "\4c";
+    font-size: 22px;
+    font-weight: 600;
+    right: 6px;
+}
+
+#ref-content .et_pb_toggle_title.ref_slideDown:before{
+    content: "\4b";
+    font-size: 22px;
+    font-weight: 600;
+    right: 6px;
+}
