@@ -12,9 +12,6 @@ This is a wordpress plugin for Calculatin BMI online.
 * [JQuery](https://jquery.com)
 
 
-### Installation
-1. Place this <b>[Custom_Bmi_Calculator_shortcode]</b> shortcode anywhere in site to show calculator.
-
 ### Usage
   1. User Can check their BMI in metrics system.
     - Height (cm)
